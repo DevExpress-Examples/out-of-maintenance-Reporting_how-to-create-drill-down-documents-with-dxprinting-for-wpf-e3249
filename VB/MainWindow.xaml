@@ -1,4 +1,4 @@
-﻿<dxc:DXWindow Title="Interactive Document Preview" x:Class="PreviewClickDemo.MainWindow"
+<dxc:DXWindow Title="Interactive Document Preview" x:Class="PreviewClickDemo.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/core"
