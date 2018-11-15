@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CategoryWrapper.cs](./CS/CategoryWrapper.cs) (VB: [CategoryWrapper.vb](./VB/CategoryWrapper.vb))
+* **[MainWindowViewModel.cs](./CS/MainWindowViewModel.cs) (VB: [MainWindowViewModel.vb](./VB/MainWindowViewModel.vb))**
+<!-- default file list end -->
 # How to create drill-down documents with DXPrinting for WPF
 
 
