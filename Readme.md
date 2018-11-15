@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
+* **[MainWindowViewModel.cs](./CS/MainWindowViewModel.cs) (VB: [MainWindowViewModel.vb](./VB/MainWindowViewModel.vb))**
+<!-- default file list end -->
 # How to create drill-down documents with DXPrinting for WPF
 
 
