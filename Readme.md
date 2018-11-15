@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CategoryWrapper.cs](./CS/CategoryWrapper.cs) (VB: [CategoryWrapper.vb](./VB/CategoryWrapper.vb))
+* [DataSource.cs](./CS/DataSource.cs) (VB: [DataSource.vb](./VB/DataSource.vb))
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* [MainWindowViewModel.cs](./CS/MainWindowViewModel.cs) (VB: [MainWindowViewModel.vb](./VB/MainWindowViewModel.vb))
+* [ProductsConverter.cs](./CS/ProductsConverter.cs) (VB: [ProductsConverter.vb](./VB/ProductsConverter.vb))
+<!-- default file list end -->
 # How to create drill-down documents with DXPrinting for WPF
 
 
