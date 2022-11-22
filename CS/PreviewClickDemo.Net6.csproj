@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <SupportedOSPlatformVersion>0.0</SupportedOSPlatformVersion>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PreviewClickDemo</RootNamespace>
+    <AssemblyName>PreviewClickDemo</AssemblyName>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <Platforms>x86;AnyCPU</Platforms>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <DefaultItemExcludes>obj*/**</DefaultItemExcludes>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Data.Entity" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Northwind.xsc">
+      <DependentUpon>Northwind.xsd</DependentUpon>
+    </None>
+    <None Update="Northwind.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Northwind.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Northwind.xss">
+      <DependentUpon>Northwind.xsd</DependentUpon>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="nwind.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Data" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Data.Desktop" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Mvvm" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Office.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Pdf.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Printing.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Export" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Docking" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.DocumentViewer.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Printing" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Reporting" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="22.2.*-*" />
+    <PackageReference Include="System.Data.OleDB" Version="5.0" />
+  </ItemGroup>
+</Project>

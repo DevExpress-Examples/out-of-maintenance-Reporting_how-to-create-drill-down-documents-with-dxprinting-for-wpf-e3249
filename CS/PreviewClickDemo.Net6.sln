@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 16
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PreviewClickDemo", "PreviewClickDemo.Net5.vbproj", "{C3AE7E00-AF3C-4AF5-B846-B1E50FD4A690}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreviewClickDemo", "PreviewClickDemo.Net6.csproj", "{C3AE7E00-AF3C-4AF5-B846-B1E50FD4A690}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
