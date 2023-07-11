@@ -1,4 +1,4 @@
-﻿using PreviewClickDemo.NorthwindTableAdapters;
+using PreviewClickDemo.NorthwindTableAdapters;
 // ...
 
 namespace PreviewClickDemo {

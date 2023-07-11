@@ -1,4 +1,4 @@
-﻿Namespace PreviewClickDemo
+Namespace PreviewClickDemo
     Public Class CategoryWrapper
         Public Property IsExpanded() As Boolean
         Private privateRow As Northwind.CategoriesRow

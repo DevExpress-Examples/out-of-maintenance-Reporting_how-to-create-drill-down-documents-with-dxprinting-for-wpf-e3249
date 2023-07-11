@@ -1,15 +1,12 @@
-﻿#region reference
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Input;
 using DevExpress.Mvvm.DataAnnotations;
 using DevExpress.Mvvm.POCO;
 using DevExpress.Xpf.Printing;
-#endregion reference
 
 namespace PreviewClickDemo {
     [POCOViewModel]
-    #region code
     public class MainWindowViewModel {
         readonly Northwind.CategoriesDataTable categories;
         readonly IList<Northwind.CategoriesRow> expandedCategories = new List<Northwind.CategoriesRow>();
@@ -64,5 +61,4 @@ namespace PreviewClickDemo {
             Mouse.SetCursor(Cursors.Hand);
         }
     }
-    #endregion code
 }

@@ -1,4 +1,4 @@
-﻿Imports PreviewClickDemo.NorthwindTableAdapters
+Imports PreviewClickDemo.NorthwindTableAdapters
 ' ...
 
 Namespace PreviewClickDemo
